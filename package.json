@@ -1,0 +1,25 @@
+{
+    "name": "slys",
+    "version": "1.0.2",
+    "description": "Let utilities come to you. 😎",
+    "main": "./",
+    "scripts": {
+        "eslint": "eslint --fix lib index.js && echo \"\u001b[1m\u001b[32mOK\u001b[39m\u001b[22m\" || echo \"\u001b[1m\u001b[31mNot OK\u001b[39m\u001b[22m\"",
+        "publish": "npm publish && git add . && git commit -m update && git push"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/odeysseus/slys.git"
+    },
+    "keywords": [
+        "utils"
+    ],
+    "author": "odeysseus <https://github.com/odeysseus>",
+    "license": "MIT",
+    "homepage": "https://github.com/odeysseus/slys#README",
+    "directories": {
+        "example": "examples",
+        "lib": "lib"
+    },
+    "dependencies": {}
+}
