@@ -1,8 +1,8 @@
 {
     "name": "slys",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Let utilities come to you. 😎",
-    "main": "./",
+    "main": "./lib",
     "scripts": {
         "eslint": "eslint --fix lib index.js && echo \"\u001b[1m\u001b[32mOK\u001b[39m\u001b[22m\" || echo \"\u001b[1m\u001b[31mNot OK\u001b[39m\u001b[22m\"",
         "publish": "npm publish && git add . && git commit -m update && git push"
